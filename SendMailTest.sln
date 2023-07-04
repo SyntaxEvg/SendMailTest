@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMailTest", "SendMailTest\SendMailTest.csproj", "{84C4A84B-ADA3-4D30-897C-E5D44F86975A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{BE89246B-7487-4CAD-9577-6BBAD6776220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{66BC9941-663D-4DDC-AF24-99EA810C7824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.SendMailTest", "DAL.SendMailTest\DAL.SendMailTest.csproj", "{F42B0968-1468-4400-BEAE-71EA3CCC2CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpServer", "Servers\SmtpServer\SmtpServer.csproj", "{10C323D2-166A-440D-B367-DA15AEDEC0C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84C4A84B-ADA3-4D30-897C-E5D44F86975A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C4A84B-ADA3-4D30-897C-E5D44F86975A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C4A84B-ADA3-4D30-897C-E5D44F86975A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C4A84B-ADA3-4D30-897C-E5D44F86975A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42B0968-1468-4400-BEAE-71EA3CCC2CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42B0968-1468-4400-BEAE-71EA3CCC2CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42B0968-1468-4400-BEAE-71EA3CCC2CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42B0968-1468-4400-BEAE-71EA3CCC2CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C323D2-166A-440D-B367-DA15AEDEC0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C323D2-166A-440D-B367-DA15AEDEC0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C323D2-166A-440D-B367-DA15AEDEC0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C323D2-166A-440D-B367-DA15AEDEC0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F42B0968-1468-4400-BEAE-71EA3CCC2CD8} = {BE89246B-7487-4CAD-9577-6BBAD6776220}
+		{10C323D2-166A-440D-B367-DA15AEDEC0C6} = {66BC9941-663D-4DDC-AF24-99EA810C7824}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690DD2BA-1926-4A0B-9AFA-8C6F7B8DBB12}
+	EndGlobalSection
+EndGlobal
